@@ -16,11 +16,13 @@ import javax.swing.SwingConstants;
 public class Window extends JFrame{
 	
 	public Window() throws MalformedURLException, IOException{
+		
         JMenuBar menuBar = new JMenuBar();
 
         String imageURL = "http://blogs.discovermagazine.com/" +
             "drone360/wp-content/themes/discoverblog/images/" +
             "gear_icon.png";
+        
 
         // Create a menu
         JMenu menu = new JMenu("About");

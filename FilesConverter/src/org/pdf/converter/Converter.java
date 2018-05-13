@@ -8,6 +8,7 @@ public class Converter {
 	public static void main(String[] args) throws MalformedURLException, IOException{
 		
 		new Window();
+		
 	}
 
 }
