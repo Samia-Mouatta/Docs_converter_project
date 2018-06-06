@@ -21,8 +21,10 @@ public class Window extends JFrame implements ActionListener{
 	 */
 	private static final long serialVersionUID = 1L;
 
-	String pdfToWord  = "FilesConverter/Resources/images/help.png";
-	
+	String pdfToWord  = "FilesConverter/Resources/images/doc.png";
+	String pdfToXls  = "FilesConverter/Resources/images/xls.png";
+	String pdfToJPG = "FilesConverter/Resources/images/jpg.png";
+	String WordToPdf  = "FilesConverter/Resources/images/pdf.png";
 
 	JPanel panelHeader,panelCenter,panelBottom;
 	JMenuBar menuBar;
@@ -65,11 +67,11 @@ public class Window extends JFrame implements ActionListener{
         button1.addActionListener(this);
         
         button2 =  new JButton("WORD TO PDF");
-        button2.setIcon(new ImageIcon(pdfToWord));
+        button2.setIcon(new ImageIcon(WordToPdf));
         button3 =  new JButton("PDF TO EXCEL");
-        button3.setIcon(new ImageIcon(pdfToWord));
+        button3.setIcon(new ImageIcon(pdfToXls));
         button4 =  new JButton("PDF TO Image");
-        button4.setIcon(new ImageIcon(pdfToWord));
+        button4.setIcon(new ImageIcon(pdfToJPG));
         
         
         panelHeader = new JPanel();
