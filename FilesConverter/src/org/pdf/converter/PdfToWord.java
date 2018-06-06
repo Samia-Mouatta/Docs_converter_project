@@ -32,6 +32,7 @@ public class PdfToWord extends JFrame implements ActionListener{
 		setSize(600,400);
 		setVisible(true);
 		setLayout(new FlowLayout());
+		//fixer la taille de la fenetre
 		setResizable(false);
 		setJMenuBar(new BarMenu().jmenuBar());
 		
